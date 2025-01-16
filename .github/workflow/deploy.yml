@@ -40,5 +40,5 @@ jobs:
 
     - name: Trigger ArgoCD Sync
       run: |
-        curl -X POST http://<ARGOCD_SERVER>/api/v1/applications/<APP_NAME>/sync \
+        curl -X POST https://dbb6-79-247-139-99.ngrok-free.app/api/v1/applications/FastTest/sync \
           -H "Authorization: Bearer ${{ secrets.ARGOCD_AUTH_TOKEN }}"
