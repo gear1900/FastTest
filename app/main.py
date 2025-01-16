@@ -6,7 +6,7 @@ app = FastAPI()
 # Endpunkt definieren
 @app.get("/")
 def read_root():
-    return {"message": "Wello, Horldlee!"}
+    return {"message": "Felix ist Doof!"}
 
 # Optional: ein weiterer Endpunkt
 @app.get("/hello/{name}")
