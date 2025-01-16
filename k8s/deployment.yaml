@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: gear1990/fastapi-demo:latest
+        image: gear1990/fastapi-demo:8291e0b
         ports:
         - containerPort: 8000
       imagePullSecrets:
