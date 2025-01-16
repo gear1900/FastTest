@@ -3,7 +3,7 @@ name: Build and Deploy with Dynamic Tag
 on:
   push:
     branches:
-      - main  # Oder 'master', je nachdem welcher Branch genutzt wird
+      - master  # Oder 'master', je nachdem welcher Branch genutzt wird
 
 permissions:
   contents: write  # Erlaubt dem Workflow, Änderungen ins Repo zu pushen
