@@ -3,7 +3,7 @@ name: Build and Deploy to Kubernetes
 on:
   push:
     branches:
-      - main  # Auf den Branch achten
+      - master  # Auf den Branch achten
 
 jobs:
   build-and-deploy:
