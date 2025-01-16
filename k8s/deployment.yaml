@@ -17,3 +17,5 @@ spec:
         image: gear1990/fastapi-demo:latest
         ports:
         - containerPort: 8000
+      imagePullSecrets:
+      - name: regcred
